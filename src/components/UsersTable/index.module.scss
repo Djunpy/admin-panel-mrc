@@ -1,0 +1,34 @@
+.edit_button {
+	@apply text-blue-400 hover:text-blue-300 mr-2;
+}
+
+.delete_button {
+	@apply text-pink-400 hover:text-pink-300;
+}
+
+.td_bottons {
+	@apply px-6 py-4 whitespace-nowrap text-sm text-gray-300;
+}
+
+.td_wrap {
+	@apply flex items-center;
+}
+
+.td_user_profile {
+	@apply flex-shrink-0 h-10 w-10;
+}
+
+.td_user_icon {
+	@apply h-10 w-10 rounded-full bg-gradient-to-r from-purple-400 to-blue-500 flex items-center justify-center text-white font-semibold;
+}
+
+.td_user_name {
+	@apply ml-4 text-sm font-medium text-gray-100;
+}
+
+.td_span {
+	@apply px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-pink-700 text-pink-100;
+	&.active {
+		@apply bg-green-700 text-green-100;
+	}
+}

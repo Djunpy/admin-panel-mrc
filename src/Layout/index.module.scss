@@ -1,0 +1,7 @@
+.layout {
+	@apply h-screen overflow-x-hidden bg-slate-700;
+}
+
+.wrap {
+	@apply grid grid-cols-[auto_1fr] grid-rows-[auto_1fr];
+}

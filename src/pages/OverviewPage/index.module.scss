@@ -1,0 +1,15 @@
+.overview {
+	@apply relative z-10 max-w-[85%];
+}
+.wrap {
+	/* @apply mx-auto py-6 px-4 lg:px-8; */
+	@apply mx-auto py-6 px-4 lg:px-8;
+}
+
+.title1 {
+	@apply text-3xl font-bold underline;
+}
+
+.p {
+	@apply p-5;
+}
